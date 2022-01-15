@@ -7,7 +7,7 @@ Necessary tools: [Burt Suite](https://portswigger.net/burp/communitydownload)
 
 ## Exercise 1
 CORS vulnerability with basic origin reflection
-> [Zadanie_1](https://portswigger.net/web-security/cors/lab-basic-origin-reflection-attack)
+> [Exercise_1](https://portswigger.net/web-security/cors/lab-basic-origin-reflection-attack)
 
 <details>
   <summary>Hint</summary>
