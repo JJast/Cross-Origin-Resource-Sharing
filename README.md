@@ -29,7 +29,7 @@ CORS vulnerability with basic origin reflection
   
 </details>
 
-## Zadanie 2
+## Exercise 2
 
 
-## Zadanie 3
+## Exercise 3
