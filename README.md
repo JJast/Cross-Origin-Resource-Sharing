@@ -59,10 +59,10 @@ CORS vulnerability with trusted null origin
 CORS configuration in Django
 
 Download and uncompress BAWIM.tar.gz and BAWIM2.tar.gz into folders BAWIM and BAWIM2  
-BAWIM.tar.gz contains a webserver that shows some images.   
-BAWIM2.tar.gz contains a webserver that shows images from BAWIM.  
+BAWIM.tar.gz contains a webserver that displays some images.   
+BAWIM2.tar.gz contains a webserver that get an image from BAWIM and displays on its page.  
 Your task is to allow webserver BAWIM2 to access images from BAWIM.  
-Run BAWIM on port 8000 and BAWIM2 on port 8001 (python3 manage.py runserver 8000, python3 manage.py runserver 8001)  
+Run BAWIM on port 8000 (python3 manage.py runserver 8000) and BAWIM2 on port 8001 (python3 manage.py runserver 8001)
 ![alt text](https://github.com/JJast/Cross-Origin-Resource-Sharing/blob/main/i1.png?raw=true)
 ![alt text](https://github.com/JJast/Cross-Origin-Resource-Sharing/blob/main/i2.png?raw=true)
 
