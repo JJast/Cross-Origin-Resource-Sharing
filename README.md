@@ -33,6 +33,15 @@ CORS vulnerability with basic origin reflection
 CORS vulnerability with trusted null origin  
 > [Exercise_2](https://portswigger.net/web-security/cors/lab-null-origin-whitelisted-attack)
 
+## Exercise 3
+CORS configuration in Django
+Downloads BAWIM.tar.gz and BAWIM2.tar.gz
+BAWIM.tar.gz contains a webserver that shows some images. 
+BAWIM2.tar.gz contains a webserver that shows images from BAWIM.tar.gz
+Your task is to allow webserver BAWIM2 to access files from BAWIM. 
+
+
+
 <details>
   <summary>Hint</summary>  
     
