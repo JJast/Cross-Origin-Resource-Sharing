@@ -64,3 +64,7 @@ Your task is to allow webserver BAWIM2 to access files from BAWIM.
 </details>
 
 ## Exercise 3
+![alt text](https://github.com/JJast/Cross-Origin-Resource-Sharing/blob/main/i1.png?raw=true)
+![alt text](https://github.com/JJast/Cross-Origin-Resource-Sharing/blob/main/i2.png?raw=true)
+
+
